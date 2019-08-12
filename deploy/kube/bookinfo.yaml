@@ -154,7 +154,7 @@ spec:
       serviceAccountName: bookinfo-reviews
       containers:
       - name: reviews
-        image: cursocgn.azurecr.io/reviews-fl:v1
+        image: cursocgn.azurecr.io/review-fl:v1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
